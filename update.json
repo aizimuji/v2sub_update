@@ -1,12 +1,12 @@
 {
-    "win": {
-        "version": "0.9.0",
-        "update_file": "https://ghproxy.com/https://raw.githubusercontent.com/aizimuji/v2sub_update/main/update_win.zip",
-        "description": "1. 增加deepl翻译器\n2. 更新相关库到最新版"
-    },
-    "mac": {
-        "version": "0.9.0",
-        "update_file": "http://www.aizimuji.com/update_mac.zip",
-        "description": "1. 增加deepl翻译器\n2. 更新相关库到最新版"
-    }
+  "win": {
+    "version": "0.9.0",
+    "file_name": "https://ghproxy.com/https://raw.githubusercontent.com/aizimuji/v2sub_update/main/update_win_0.9.0.zip",
+    "description": "v2sub 0.9.0 版本\n\n1. 增加deepl翻译器\n2. 更新相关库到最新版"
+  },
+  "mac": {
+    "version": "0.9.0",
+    "file_name": "https://ghproxy.com/https://raw.githubusercontent.com/aizimuji/v2sub_update/main/update_mac_0.9.0.zip",
+    "description": "v2sub 0.9.0 版本\n\n1. 增加deepl翻译器\n2. 更新相关库到最新版"
+  }
 }
