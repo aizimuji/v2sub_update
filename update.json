@@ -1,12 +1,12 @@
 {
   "win": {
-    "version": "0.9.1",
+    "version": "0.9.0",
     "update_file": "https://ghproxy.com/https://raw.githubusercontent.com/aizimuji/v2sub_update/main/update_win_empty.zip",
     "description": "v2sub 0.9.0 版本\n\n- 增加deepl翻译器(强化版专属)\n- 增加自动更新功能， 以后更新可直接通过软件自动完成\n- 批处理完成后显示运行报告， 含成功失败信息文件等\n- 更新相关计算库到最新版(提高稳定性和性能)\n- 优化自动重试处理， 重试失败后自动跳过\n- 帮助菜单添加意见反馈按钮， 链接到网站意见反馈页面\n- 去掉chatgpt 输入框 sk开头限制, 因为有第三方key不一样\n- 当使用GPU创建模型失败时， 自动改用CPU重试",
     "with_exec": false
   },
   "mac": {
-    "version": "0.9.1",
+    "version": "0.9.0",
     "update_file": "https://ghproxy.com/https://raw.githubusercontent.com/aizimuji/v2sub_update/main/update_mac_empty.zip",
     "description": "v2sub 0.9.0 版本\n\n- 增加deepl翻译器(强化版专属)\n- 增加自动更新功能， 以后更新可直接通过软件自动完成\n- 批处理完成后显示运行报告， 含成功失败信息文件等\n- 更新相关计算库到最新版(提高稳定性和性能)\n- 优化自动重试处理， 重试失败后自动跳过\n- 帮助菜单添加意见反馈按钮， 链接到网站意见反馈页面\n- 去掉chatgpt 输入框 sk开头限制, 因为有第三方key不一样\n- 当使用GPU创建模型失败时， 自动改用CPU重试",
     "with_exec": false
