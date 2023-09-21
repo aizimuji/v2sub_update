@@ -1,14 +1,14 @@
 {
   "win": {
     "version": "0.9.0",
-    "update_file": "https://ghproxy.com/https://raw.githubusercontent.com/aizimuji/v2sub_update/main/update_win_empty.zip",
-    "description": "v2sub 0.9.0 版本\n\n- 增加deepl翻译器(强化版专属)\n- 增加自动更新功能， 以后更新可直接通过软件自动完成\n- 批处理完成后显示运行报告， 含成功失败信息文件等\n- 更新相关计算库到最新版(提高稳定性和性能)\n- 优化自动重试处理， 重试失败后自动跳过\n- 帮助菜单添加意见反馈按钮， 链接到网站意见反馈页面\n- 去掉chatgpt 输入框 sk开头限制, 因为有第三方key不一样\n- 当使用GPU创建模型失败时， 自动改用CPU重试",
-    "with_exec": false
+    "update_file": "https://ghproxy.com/https://github.com/aizimuji/v2sub_update/releases/download/v0.9.5/update_win_0.9.5.zip",
+    "description": "v2sub 0.9.5 版本\n\n功能更新:\n-模型配置增加保护模式(强化版专属), 开启该模式可减少模型的重复, 幻听(输出大量无关字符)的问题. 但开启模式可能会导致性能下降等其他问题, 建议仅在模型识别有问题时才开启\n- ChatGPT翻译器增加域名配置功能, 其中 v2sub自动域名功能可以直接链接gpt, 无需特别网络配置(强化版专属)\n- 字幕配置增加翻译后删除原始字幕功能， 这样直接打开视频可看中文字幕\n-增加若干配置文档, 便于使用\n\nBug 修复：\n\n- 翻译错误时没有加载最新进度， 重复翻译",
+    "with_exec": true
   },
   "mac": {
-    "version": "0.9.0",
-    "update_file": "https://ghproxy.com/https://raw.githubusercontent.com/aizimuji/v2sub_update/main/update_mac_empty.zip",
-    "description": "v2sub 0.9.0 版本\n\n- 增加deepl翻译器(强化版专属)\n- 增加自动更新功能， 以后更新可直接通过软件自动完成\n- 批处理完成后显示运行报告， 含成功失败信息文件等\n- 更新相关计算库到最新版(提高稳定性和性能)\n- 优化自动重试处理， 重试失败后自动跳过\n- 帮助菜单添加意见反馈按钮， 链接到网站意见反馈页面\n- 去掉chatgpt 输入框 sk开头限制, 因为有第三方key不一样\n- 当使用GPU创建模型失败时， 自动改用CPU重试",
-    "with_exec": false
+    "version": "0.9.5",
+    "update_file": "https://ghproxy.com/https://github.com/aizimuji/v2sub_update/releases/download/v0.9.5/update_mac_0.9.5.zip",
+    "description": "v2sub 0.9.5 版本\n\n功能更新:\n-模型配置增加保护模式(强化版专属), 开启该模式可减少模型的重复, 幻听(输出大量无关字符)的问题. 但开启模式可能会导致性能下降等其他问题, 建议仅在模型识别有问题时才开启\n- ChatGPT翻译器增加域名配置功能, 其中 v2sub自动域名功能可以直接链接gpt, 无需特别网络配置(强化版专属)\n- 字幕配置增加翻译后删除原始字幕功能， 这样直接打开视频可看中文字幕\n-增加若干配置文档, 便于使用\n\nBug 修复：\n\n- 翻译错误时没有加载最新进度， 重复翻译",
+    "with_exec": true
   }
 }
